@@ -3,14 +3,14 @@
 // 1) задан массив ['a', 'b', 'c', 'd']
 //    без дополнительных переменных получить массив ['d', 'a', 'd', 'a']
 
-const arr1 = ['a', 'b', 'c', 'd'];
+const arrStrart1ex = ['a', 'b', 'c', 'd'];
 
-console.log("задача 1 начало", arr1)
+console.log("задача 1 начало", arrStrart1ex)
 
-const arr2 =[];
+const arrEnd1ex =[];
 
-for (let elem = 0; elem < arr1.length; elem++) {
-  elem%2 === 0 ? arr2[elem] = arr1[arr1.length - 1] : arr2[elem] = arr1[0]
+for (let i = 0; i < arrStrart1ex.length; i++) {
+  i%2 === 0 ? arrEnd1ex[i] = arrStrart1ex[arrStrart1ex.length - 1] : arrEnd1ex[i] = arrStrart1ex[0]
 }
 
-console.log("задача 1 решение",arr2)
+console.log("задача 1 решение",arrEnd1ex)

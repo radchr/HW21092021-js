@@ -1,14 +1,14 @@
 // 5) задан массив ['a', 'b', 'c', 'd']
 //    получить массив ['ab', 'bc', 'cd', 'da']
 
-const arr88 = ['a', 'b', 'c', 'd']
-console.log('задача 5 начало', arr88)
+const arrStert5ex = ['a', 'b', 'c', 'd']
+console.log('задача 5 начало', arrStert5ex)
 
-const arr99 = []
+const arrEnd5ex = []
 
-for (let elem = 0; elem < arr88.length - 1  ; elem++) {
-    arr99[elem] = `${arr88[elem]}${arr88[elem+1]}`
+for (let i = 0; i < arrStert5ex.length - 1  ; i++) {
+    arrEnd5ex[i] = `${arrStert5ex[i]}${arrStert5ex[i+1]}`
 }
-arr99[arr88.length - 1] = `${arr88[arr88.length-1]}${arr88[0]}`
+arrEnd5ex[arrStert5ex.length - 1] = `${arrStert5ex[arrStert5ex.length-1]}${arrStert5ex[0]}`
 
-console.log('задача 5 решение', arr99)
+console.log('задача 5 решение', arrEnd5ex)

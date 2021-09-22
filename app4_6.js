@@ -1,14 +1,14 @@
 // 4) задан массив ['a', 'b', 'c', 'd']
 //    получить массив ['a1', 'b2', 'c3', 'd4']
 
-const arr44 = ['a', 'b', 'c', 'd']
-console.log('задача 4 начало',arr44)
-const arr55 = []
+const arrStrart4ex = ['a', 'b', 'c', 'd']
+console.log('задача 4 начало',arrStrart4ex)
+const arrEnd4ex = []
 
 
-for (let elem = 0; elem < arr44.length; elem++){
-    arr55[elem] = `${arr44[elem]}${elem+1}`
+for (let i = 0; i < arrStrart4ex.length; i++){
+    arrEnd4ex[i] = `${arrStrart4ex[i]}${i+1}`
 
 }
 
-console.log('задача 4 решение',arr55)
+console.log('задача 4 решение',arrEnd4ex)

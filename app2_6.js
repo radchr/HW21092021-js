@@ -3,14 +3,14 @@
 //    получить массив ['d', 'c', 'b', 'a']
 
 
-const arr11 = ['a', 'b', 'c', 'd'];
+const arrStart2ex = ['a', 'b', 'c', 'd'];
 
-console.log("задача 2 начало",arr11)
+console.log("задача 2 начало",arrStart2ex)
 
-const arr22 =[];
+const arrEnd2ex =[];
 
-for (let elem = 0; elem < arr11.length; elem++){
-  arr22[elem] = arr11[arr11.length - 1 - elem ] 
+for (let i = 0; i < arrStart2ex.length; i++){
+  arrEnd2ex[i] = arrStart2ex[arrStart2ex.length - 1 - i ] 
 }
 
-console.log("задача 2 решение", arr22)
+console.log("задача 2 решение", arrEnd2ex)

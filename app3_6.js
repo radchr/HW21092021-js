@@ -1,14 +1,14 @@
 // задан массив ['a', 'b', 'a', 'b']
 //    без дополнительных переменных и дополнительных массивов изменить заданный массив так, чтобы она был ['b', 'a', 'b', 'a']
 
-const arr33 = ['a', 'b', 'a', 'b']
-console.log('задача 3 начало', arr33)
+const arrStert3ex = ['a', 'b', 'a', 'b']
+console.log('задача 3 начало', arrStert3ex)
 
-for (let elem = 0; elem < arr33.length; elem++) {
-    arr33[elem] = arr33[elem+1]
+for (let i = 0; i < arrStert3ex.length; i++) {
+    arrStert3ex[i] = arrStert3ex[i+1]
 }
 
-arr33[arr33.length - 1] = arr33[arr33.length - 3]
+arrStert3ex[arrStert3ex.length - 1] = arrStert3ex[arrStert3ex.length - 3]
 
-console.log('задача 3 решение',arr33)
+console.log('задача 3 решение',arrStert3ex)
 

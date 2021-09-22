@@ -3,12 +3,12 @@
 
 
 // задача 6......
-const arr61 = ['a', 'b', 'c', 'd'];
+const arrStart6ex = ['a', 'b', 'c', 'd'];
 
-console.log("задача 6 - начало",arr61)
+console.log("задача 6 - начало",arrStart6ex)
 
-for (let elem = 0; elem < arr61.length; elem++) {
-  arr61[elem] = ((arr61.length + 1) - elem)**2
+for (let i = 0; i < arrStart6ex.length; i++) {
+  arrStart6ex[i] = ((arrStart6ex.length + 1) - i)**2
 }
 
-console.log("задача 6 решение", arr61)
+console.log("задача 6 решение", arrStart6ex)
